@@ -10,6 +10,14 @@
 
 ### Bug fixes
 
+# 2.5.20 (23 Feb 2026)
+
+- `DetailedTrace`: Handle inspecting instances of anonymous classes #5530
+- `Dashboard`: move controllers to their own files, fix lazy loading #5524
+- `Dataloader`: add `dataload_all` shortcut; add shortcuts to `context` #5540
+- Add experimental new runtime code (not loaded by default) #5509 #5544 #5547
+- Fix `@defer` on inline fragments when fields return Lazy values and Dataloader isn't used #5550
+
 # 2.5.19 (5 Feb 2026)
 
 - `DetailedTrace`: add ActiveRecord backend, generator #5525
